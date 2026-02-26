@@ -1,6 +1,51 @@
+* {
+  background-color: #0f0e17;
+  font-family: Tahoma, sans-serif;
+  font-size: 16px;
+  color: #a7a9be;
+}
 
+h1 {
+  font-size: 3.5rem;
+  color: #fffffe;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-align: center;
+}
 
+h2 {
+  font-size: 1.5rem; /* 1.5 times larger than root size */
+  text-decoration: underline dashed #f25f4c;
+  font-weight: bold;
+}
 
+li {
+  line-height: 2.5;
+}
+
+a:link {
+  color: #f25f4c;
+}
+
+body {
+  background-image: url("https://img.freepik.com/premium-vector/abstract-line-geometric-pattern_260839-655.jpg?semt=ais_user_personalization&w=740&q=80Links to an external site.");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+img {
+  opacity: 0.7; /* 70% opacity */
+  height: 500px;
+}
+
+ul {
+  list-style-type: square;
+}
+
+ol {
+  list-style-type: upper-roman;
+}
 
 /* no touchy */
 ul, ol {
